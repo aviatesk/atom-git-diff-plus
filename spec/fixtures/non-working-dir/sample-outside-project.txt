@@ -1,0 +1,1 @@
+@NOTE: The directory containing this sample file must not be added to Atom's projects.

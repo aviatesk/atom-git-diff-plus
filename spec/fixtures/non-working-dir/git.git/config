@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	worktree = C:/Users/aviat/github/atom-core/packages/git-diff/spec/fixtures/non-working-dir
+	ignorecase = true

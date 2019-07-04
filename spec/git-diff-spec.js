@@ -3,18 +3,25 @@ const fs = require('fs-plus');
 const temp = require('temp');
 
 describe('GitDiff package', () => {
-  let editor, editorElement, projectPath, ELAPSEDTIME;
+  let editor, editorElement, projectPath, outsideProjectPath, ELAPSEDTIME;
 
   beforeEach(async () => {
-    // spyOn(window, 'setImmediate').andCallFake(fn => fn());
-
     projectPath = temp.mkdirSync('git-diff-spec-');
+    outsideProjectPath = temp.mkdirSync('git-diff-spec-');
     const otherPath = temp.mkdirSync('some-other-path-');
 
     fs.copySync(path.join(__dirname, 'fixtures', 'working-dir'), projectPath);
     fs.moveSync(
       path.join(projectPath, 'git.git'),
       path.join(projectPath, '.git')
+    );
+    fs.copySync(
+      path.join(__dirname, 'fixtures', 'non-working-dir'),
+      outsideProjectPath
+    );
+    fs.moveSync(
+      path.join(outsideProjectPath, 'git.git'),
+      path.join(outsideProjectPath, '.git')
     );
     atom.project.setPaths([otherPath, projectPath]);
 
@@ -133,6 +140,31 @@ describe('GitDiff package', () => {
 
       await atom.workspace.open(path.join(projectPath, 'sample.txt'));
       editorElement = atom.workspace.getActiveTextEditor().getElement();
+
+      setTimeout(() => {
+        expect(
+          editorElement.querySelectorAll('.git-line-modified').length
+        ).toBe(1);
+        expect(editorElement.querySelector('.git-line-modified')).toHaveData(
+          'buffer-row',
+          0
+        );
+      }, ELAPSEDTIME);
+    });
+  });
+
+  describe('when a modified file outside of the current project is opened', () => {
+    it('still highlights the changed lines', async () => {
+      fs.writeFileSync(
+        path.join(outsideProjectPath, 'sample-outside-project.txt'),
+        'Some different text.'
+      );
+
+      await atom.workspace.open(
+        path.join(outsideProjectPath, 'sample-outside-project.txt')
+      );
+      editor = atom.workspace.getActiveTextEditor();
+      editorElement = editor.getElement();
 
       setTimeout(() => {
         expect(
