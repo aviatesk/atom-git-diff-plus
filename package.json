@@ -1,5 +1,5 @@
 {
-  "name": "git-diff",
+  "name": "happy-git-diff",
   "version": "0.0.0",
   "main": "./lib/main",
   "description": "Happier git-diff package for Atom editor.",
