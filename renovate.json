@@ -1,5 +1,10 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "preserveSemverRanges": true,
+  "semanticCommits": false,
+  "devDependencies": {
+    "automerge": true
+  }
 }
