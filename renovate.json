@@ -2,8 +2,8 @@
   "extends": [
     "config:base"
   ],
-  "preserveSemverRanges": true,
   "semanticCommits": false,
+  "pinVersions": false,
   "devDependencies": {
     "automerge": true
   }
