@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs-plus');
 const temp = require('temp');
 
-describe('git-diff-plus:toggle-diff-list', () => {
+describe('The command "Git-Diff-Plus:Toggle-Diff-List"', () => {
   let diffListView, editor;
 
   beforeEach(() => {
