@@ -1,9 +1,9 @@
 {
-  "name": "happy-git-diff",
+  "name": "better-git-diff",
   "version": "0.0.0",
   "main": "./lib/main",
-  "description": "Happier git-diff package for Atom editor.",
-  "repository": "https://github.com/aviatesk/atom-happy-git-diff",
+  "description": "Better and happier git-diff package for Atom editor.",
+  "repository": "https://github.com/aviatesk/atom-better-git-diff",
   "license": "MIT",
   "author": "Originally published by GitHub Inc. and modified by KADOWAKI, Shuhei",
   "keywords": [
@@ -14,15 +14,23 @@
     "outside-project"
   ],
   "configSchema": {
+    "showDiffsInStatusBar": {
+      "type": "boolean",
+      "default": true,
+      "description": "If true, shows diffs also in Status Bar",
+      "order": 1
+    },
     "showIconsInEditorGutter": {
       "type": "boolean",
       "default": false,
-      "description": "Show colored icons for added (`+`), modified (`·`) and removed (`-`) lines in the editor's gutter, instead of colored markers (`|`)."
+      "description": "Shows colored icons for added (`+`), modified (`·`) and removed (`-`) lines in the editor's gutter, instead of colored markers (`|`).",
+      "order": 2
     },
     "wrapAroundOnMoveToDiff": {
       "type": "boolean",
       "default": true,
-      "description": "Wraps around to the first/last diff in the file when moving to next/previous diff."
+      "description": "Wraps around to the first/last diff in the file when moving to next/previous diff.",
+      "order": 3
     }
   },
   "engines": {
