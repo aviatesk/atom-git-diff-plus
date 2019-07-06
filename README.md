@@ -12,12 +12,13 @@ Marks lines in the editor gutter that have been added, edited, or deleted since 
 
 ## TODOs
 
-- [x] @TODO Rename package
+- [x] Rename package
 - [ ] @TODO Update README
 - [ ] @TODO Recommend an user disable the bundled [`git-diff`](https://github.com/atom/atom/tree/master/packages/git-diff) package if it's enabled
-- [x] @TODO Make a config setting to disable Status-Bar integration
+- [x] Make a config setting to disable Status-Bar integration
 - [ ] @TODO Add a click event handler to the Status-Bar tile
 - [ ] @TODO Merge [status-bar-controller.js](lib/status-bar-controller.js) into [git-diff-view.js](lib/git-diff-view.js)
     * It will remove the duplicated subscription to the same git repository, but the code may lead to be more complicated
         + [status-bar-controller.js](lib/status-bar-controller.js) is only for a single file at a time
         + but multiple [git-diff-view.js](lib/git-diff-view.js) instances are there at the same time
+- [ ] @TODO Set up Travis-CI
