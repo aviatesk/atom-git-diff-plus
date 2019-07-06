@@ -2,12 +2,12 @@ const path = require('path');
 const fs = require('fs-plus');
 const temp = require('temp');
 
-describe('Better-Git-Diff package', () => {
+describe('Git-Diff-Plus package', () => {
   let editor, editorElement, projectPath, outsideProjectPath, ELAPSEDTIME;
 
   beforeEach(async () => {
-    projectPath = temp.mkdirSync('git-diff-spec-');
-    outsideProjectPath = temp.mkdirSync('git-diff-spec-');
+    projectPath = temp.mkdirSync('git-diff-plus-spec-');
+    outsideProjectPath = temp.mkdirSync('git-diff-plus-spec-');
     const otherPath = temp.mkdirSync('some-other-path-');
 
     fs.copySync(path.join(__dirname, 'fixtures', 'working-dir'), projectPath);
@@ -34,7 +34,7 @@ describe('Better-Git-Diff package', () => {
       ELAPSEDTIME = editor.getBuffer().getStoppedChangingDelay();
     });
 
-    await atom.packages.activatePackage('better-git-diff');
+    await atom.packages.activatePackage('git-diff-plus');
   });
 
   describe('when the editor has modified lines', () => {

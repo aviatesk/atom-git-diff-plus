@@ -1,9 +1,9 @@
 {
-  "name": "better-git-diff",
+  "name": "git-diff-plus",
   "version": "0.0.0",
   "main": "./lib/main",
   "description": "Better and happier git-diff package for Atom editor.",
-  "repository": "https://github.com/aviatesk/atom-better-git-diff",
+  "repository": "https://github.com/aviatesk/atom-git-diff-plus",
   "license": "MIT",
   "author": "Originally published by GitHub Inc. and modified by KADOWAKI, Shuhei",
   "keywords": [

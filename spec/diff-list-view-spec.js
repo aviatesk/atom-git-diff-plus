@@ -2,11 +2,11 @@ const path = require('path');
 const fs = require('fs-plus');
 const temp = require('temp');
 
-describe('better-git-diff:toggle-diff-list', () => {
+describe('git-diff-plus:toggle-diff-list', () => {
   let diffListView, editor;
 
   beforeEach(() => {
-    const projectPath = temp.mkdirSync('better-git-diff-spec-');
+    const projectPath = temp.mkdirSync('git-diff-plus-spec-');
     fs.copySync(path.join(__dirname, 'fixtures', 'working-dir'), projectPath);
     fs.moveSync(
       path.join(projectPath, 'git.git'),
@@ -16,7 +16,7 @@ describe('better-git-diff:toggle-diff-list', () => {
 
     jasmine.attachToDOM(atom.workspace.getElement());
 
-    waitsForPromise(() => atom.packages.activatePackage('better-git-diff'));
+    waitsForPromise(() => atom.packages.activatePackage('git-diff-plus'));
 
     waitsForPromise(() => atom.workspace.open('sample.js'));
 
@@ -26,7 +26,7 @@ describe('better-git-diff:toggle-diff-list', () => {
       editor.insertText('a');
       atom.commands.dispatch(
         editor.getElement(),
-        'better-git-diff:toggle-diff-list'
+        'git-diff-plus:toggle-diff-list'
       );
     });
 
