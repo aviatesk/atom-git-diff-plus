@@ -1,11 +1,11 @@
-# v0.1.0
+# v0.2.0
 
 - Made this file
 - Set up CI
     * Travis
     * AppVeyor
 
-# v0.0.1
+# v0.1.0
 
 - Add `context` menu
 - Changed the package name
