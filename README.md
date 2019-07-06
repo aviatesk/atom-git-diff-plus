@@ -1,7 +1,7 @@
 # Atom Git-Diff-Plus package
 
 [![Ubuntu Build Status](https://travis-ci.org/aviatesk/atom-git-diff-plus.svg?branch=master)](https://travis-ci.org/aviatesk/atom-git-diff-plus/)
-<!-- @TODO [![Windows Build Status]()]() -->
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/1nytyu2csyuvftt9/branch/master?svg=true)](https://ci.appveyor.com/project/aviatesk/atom-git-diff-plus)
 
 The alternative for [`Git-Diff` package][Git-Diff] for Atom editor.
 
