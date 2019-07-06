@@ -1,4 +1,6 @@
-Copyright (c) 2019 KADOWAKI, Shuhei.
+Copyright (c) 2019 KADOWAKI, Shuhei (Added when I forked the code base from below and changed it significantly)
+
+Copyright (c) 2014 GitHub Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
