@@ -31,6 +31,7 @@ Commands:
 - `Git-Diff-Plus:Toggle-Diff-List` (<kbd>Alt-G D</kbd>): see all the diffs in a current active editor
 
 You can also click the Status-Bar tile to invoke `Git-Diff-Plus:Toggle-Diff-List`:
+
 ![image](https://user-images.githubusercontent.com/40514306/60760048-98f95c80-a069-11e9-80a9-c3fefeb3de49.png)
 
 
