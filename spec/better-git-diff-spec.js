@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs-plus');
 const temp = require('temp');
 
-describe('GitDiff package', () => {
+describe('Better-Git-Diff package', () => {
   let editor, editorElement, projectPath, outsideProjectPath, ELAPSEDTIME;
 
   beforeEach(async () => {
@@ -34,7 +34,7 @@ describe('GitDiff package', () => {
       ELAPSEDTIME = editor.getBuffer().getStoppedChangingDelay();
     });
 
-    await atom.packages.activatePackage('git-diff');
+    await atom.packages.activatePackage('better-git-diff');
   });
 
   describe('when the editor has modified lines', () => {
