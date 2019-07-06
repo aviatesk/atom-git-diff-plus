@@ -9,9 +9,10 @@
   "keywords": [
     "git",
     "diff",
-    "status-bar",
+    "plus",
     "inside-project",
-    "outside-project"
+    "outside-project",
+    "status-bar"
   ],
   "configSchema": {
     "showDiffsInStatusBar": {
