@@ -1,4 +1,4 @@
 'atom-text-editor':
-  'alt-g down': 'git-diff-plus:move-to-next-diff'
   'alt-g up': 'git-diff-plus:move-to-previous-diff'
+  'alt-g down': 'git-diff-plus:move-to-next-diff'
   'alt-g d': 'git-diff-plus:toggle-diff-list'
