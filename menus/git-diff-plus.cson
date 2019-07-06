@@ -2,11 +2,11 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'Git Diff'
+      'label': 'Git Diff Plus'
       'submenu': [
-        { 'label': 'Move to Next Diff', 'command': 'git-diff:move-to-next-diff' }
-        { 'label': 'Move to Previous Diff', 'command': 'git-diff:move-to-previous-diff' }
-        { 'label': 'Toggle Diff List', 'command': 'git-diff:toggle-diff-list' }
+        { 'label': 'Move to Next Diff', 'command': 'git-diff-plus:move-to-next-diff' }
+        { 'label': 'Move to Previous Diff', 'command': 'git-diff-plus:move-to-previous-diff' }
+        { 'label': 'Toggle Diff List', 'command': 'git-diff-plus:toggle-diff-list' }
       ]
     ]
   }
