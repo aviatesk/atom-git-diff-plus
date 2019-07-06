@@ -1,0 +1,2 @@
+*.cson linguist-language=CoffeeScript
+*.json linguist-language=JavaScript
