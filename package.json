@@ -5,13 +5,12 @@
   "description": "Better and happier git-diff package for Atom editor.",
   "repository": "https://github.com/aviatesk/atom-git-diff-plus",
   "license": "MIT",
-  "author": "Originally published by GitHub Inc. and modified by KADOWAKI, Shuhei",
+  "author": "Originally developed by GitHub Inc. and later modified by KADOWAKI, Shuhei",
   "keywords": [
     "git",
     "diff",
     "plus",
-    "inside-project",
-    "outside-project",
+    "project",
     "status-bar"
   ],
   "configSchema": {
@@ -35,7 +34,7 @@
     }
   },
   "engines": {
-    "atom": "*"
+    "atom": ">=1.37.0 <2.0.0"
   },
   "scripts": {
     "eslint": "eslint --fix \"./{lib,spec}/**/*.js\"",
