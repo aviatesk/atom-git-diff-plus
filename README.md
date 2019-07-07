@@ -3,7 +3,7 @@
 [![Ubuntu Build Status](https://travis-ci.org/aviatesk/atom-git-diff-plus.svg?branch=master)](https://travis-ci.org/aviatesk/atom-git-diff-plus/)
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/1nytyu2csyuvftt9/branch/master?svg=true)](https://ci.appveyor.com/project/aviatesk/atom-git-diff-plus)
 
-The alternative for [`Git-Diff` package][Git-Diff] for Atom editor.
+The better and happier alternative for [`Git-Diff` package][Git-Diff] for Atom editor.
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/40514306/60759461-cdb4e600-a060-11e9-856b-559e006f6f79.gif)
 
