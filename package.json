@@ -11,7 +11,7 @@
     "diff",
     "plus",
     "project",
-    "status-bar"
+    "status bar"
   ],
   "configSchema": {
     "showDiffsInStatusBar": {
