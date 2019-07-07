@@ -24,8 +24,8 @@ There are mainly these advantages below for you to use this **`Git-Diff-Plus`** 
 3. Includes a lot of valuable refactors. E.g.:
     * **Can recognize an newly added repository**
     * **Don't cause error after an previously recognized repository is removed**
-    * Gutter icons work correctly when [Atom-IDE-UI](https://atom.io/packages/atom-ide-ui) is active
-    * Better disposers, minimal condition check
+    * Gutter icons don't collide with gutter elements exported by [Atom-IDE-UI](https://atom.io/packages/atom-ide-ui)
+    * Better disposers, minimal condition checks
     * and etc...
 
 
