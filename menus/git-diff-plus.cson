@@ -16,6 +16,10 @@
           'label': 'Toggle Diff List',
           'command': 'git-diff-plus:toggle-diff-list'
         }
+        {
+          'label': 'Rebuild Repository Cache',
+          'command': 'git-diff-plus:rebuild-repository-cache'
+        }
       ]
     ]
   }
