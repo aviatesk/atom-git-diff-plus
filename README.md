@@ -16,23 +16,29 @@ There are mainly these advantages below for you to use this **`Git-Diff-Plus`** 
 
 1. Tracks git diffs for every file under .git repository, meaning you can **see the diffs of files both in the current Atom projects and outside of the projects**
     * [Git-Diff][Git-Diff] can only shows diffs of files in current projects ...
+
 2. Indicates _per-file_ diffs **in the Status-Bar** as well as in editor gutters
+    * ![image](https://user-images.githubusercontent.com/40514306/60760048-98f95c80-a069-11e9-80a9-c3fefeb3de49.png)
     * Of course you can disable this integration via your config setting
+
 3. Includes a lot of valuable refactors. E.g.:
+    * **Can recognize an newly added repository**
+    * **Don't cause error after an previously recognized repository is removed**
     * Gutter icons work correctly when [Atom-IDE-UI](https://atom.io/packages/atom-ide-ui) is active
-    * Better disposers, minimal condition check, and etc...
+    * Better disposers, minimal condition check
+    * and etc...
 
 
 ## Usage
 
 Commands:
-- `Git-Diff-Plus:Move-To-Previous-Diff` (<kbd>Alt-G Up</kbd>): move the cursor to the previous diff in the editor
-- `Git-Diff-Plus:Move-To-Next-Diff` (<kbd>Alt-G Down</kbd>): move the cursor to the next diff in the editor
-- `Git-Diff-Plus:Toggle-Diff-List` (<kbd>Alt-G D</kbd>): see all the diffs in a current active editor
+- `Git Diff Plus: Move To Previous Diff` (<kbd>Alt-G Up</kbd>): move the cursor to the previous diff in the editor
+- `Git Diff Plus: Move To Next Diff` (<kbd>Alt-G Down</kbd>): move the cursor to the next diff in the editor
+- `Git Diff Plus: Toggle Diff List` (<kbd>Alt-G D</kbd>): see all the diffs in a current active editor
+- `Git Diff Plus: Rebuild Repository Cache`: invoke this command when you find diffs for an newly added repository is not recognized
 
-You can also click the Status-Bar tile to invoke `Git-Diff-Plus:Toggle-Diff-List`:
-
-![image](https://user-images.githubusercontent.com/40514306/60760048-98f95c80-a069-11e9-80a9-c3fefeb3de49.png)
+UI:
+- You can click the Status-Bar tile to invoke `Git-Diff-Plus:Toggle-Diff-List`:
 
 
 ## Why `Git-Diff-"Plus"` ?
