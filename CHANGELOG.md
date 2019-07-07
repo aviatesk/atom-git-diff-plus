@@ -1,3 +1,10 @@
+## v0.3.1
+
+### :book: Documentation
+
+- Fixes the wording in README
+
+
 ## v0.3.0
 
 ### :tada: Improvements
