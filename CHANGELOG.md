@@ -1,3 +1,18 @@
+## v0.4.0
+
+### :tada: Improvements
+
+- Only shows actually changed diffs in Status-Bar
+![image](https://user-images.githubusercontent.com/40514306/60886819-da6a5180-a28d-11e9-99d6-9ba1ee658cd5.png)
+
+### :book: Documentation
+
+- Update README
+    * Add how to install
+    * Recommend disable `git-diff`
+    * Add expiations for config settings
+
+
 ## v0.3.1
 
 ### :book: Documentation
