@@ -2,7 +2,7 @@
   "name": "git-diff-plus",
   "version": "0.4.0",
   "main": "./lib/main",
-  "description": "Better and happier git-diff package for Atom editor.",
+  "description": "git-diff alternative",
   "repository": "https://github.com/aviatesk/atom-git-diff-plus",
   "license": "MIT",
   "author": "Originally developed by GitHub Inc. and later modified by KADOWAKI, Shuhei",
