@@ -4,11 +4,11 @@
 
 ## v0.4.0
 
-- only shows actually changed diffs in Status-Bar
+- only shows actually changed diffs in status-bar
 ![image](https://user-images.githubusercontent.com/40514306/60886819-da6a5180-a28d-11e9-99d6-9ba1ee658cd5.png)
 - update README
   * add how to install
-  * recommend disable `git-diff`
+  * recommend disabling `git-diff` package
   * add expiations for config settings
 
 ## v0.3.1
@@ -21,9 +21,9 @@
   * don't caches already searched repositories
     + it seems that Atom caches the previously created repository objects by default, thus there was not difference between caching and non-caching on our side
     + as a result, each searching operation will only take ~10ms
-  * only caches editors under **non-`.git`** directories for better performance
-- register `Git Diff Plus: Rebuild Repository Cache` command to rebuild the cache so that `Git-Diff-Plus` can recognize an newly created `.git` repository at a later time
-- status-bar integration now correctly cleared for files under non-`.git` directories
+  * only caches editors under **non-.git** directories for better performance
+- register `Git Diff Plus: Rebuild Repository Cache` command to rebuild the cache so that this package can recognize an newly created .git repository at a later time
+- status-bar integration now correctly cleared for files under non-.git directories
 - deleted unused `standard` dependency from `devDependencies`
 - update TODOs
 
