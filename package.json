@@ -1,6 +1,6 @@
 {
   "name": "git-diff-plus",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "main": "./lib/main",
   "description": "alternative git-diff",
   "repository": "https://github.com/aviatesk/atom-git-diff-plus",
