@@ -1,4 +1,4 @@
-Copyright (c) 2019 KADOWAKI, Shuhei (Added when I forked the code base from below and changed it significantly)
+Copyright (c) 2019 Shuhei Kadowaki (Added when I forked the code base from below and changed it significantly)
 
 Copyright (c) 2014 GitHub Inc.
 

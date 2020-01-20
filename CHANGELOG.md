@@ -1,3 +1,7 @@
+## v0.4.2
+
+- update documentations
+
 ## v0.4.1
 
 - fixes #12
