@@ -41,7 +41,7 @@
     "prettier": "prettier --write \"./lib/**/*.js\" \"./spec/**/*.js\""
   },
   "dependencies": {
-    "atom-select-list": "^0.7.0",
+    "atom-select-list": "^0.8.0",
     "fs-plus": "^3.0.0",
     "temp": "^0.9.0"
   },
